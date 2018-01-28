@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1516875063 source:/home/musa/Desktop/introDebug/main.c
+	<stdio.h>
+	<stdlib.h>
+
