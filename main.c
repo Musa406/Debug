@@ -3,7 +3,7 @@
 
 int main()
 {
-    int x=5;
+    int x=5,sum = 0;
     float z,w;
 
     for(int y=10; y>=0; y--){
@@ -13,10 +13,10 @@ int main()
     }
 
     for(int k=0; k<10; k++){
-        w = 50/(x-k);
-        printf("%d", w);
+       
+        sum = sum +10;
     }
-
+    printf("%d", sum);
 
     return 0;
 }
