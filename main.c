@@ -3,7 +3,7 @@
 
 int main()
 {
-    int x=5,sum = 0;
+    int x=5,mul = 0;
     float z,w;
 
     for(int y=10; y>=0; y--){
@@ -14,9 +14,9 @@ int main()
 
     for(int k=0; k<10; k++){
        
-        sum = sum +10;
+        mul = mul*10;
     }
-    printf("%d", sum);
+    printf("%d", mul);
 
     return 0;
 }
